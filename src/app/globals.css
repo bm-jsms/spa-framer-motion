@@ -5,3 +5,10 @@
 html {
 	scroll-behavior: smooth;
 }
+body {
+	background: #000003;
+	color: #fff;
+}
+#overview {
+	border-radius: 75px;
+}
