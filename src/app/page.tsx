@@ -8,6 +8,7 @@ export default function Home() {
 			<Navbar />
 			<Overview />
 			<Features />
+			<div className='max-w-5xl mx-auto'></div>
 		</main>
 	);
 }
