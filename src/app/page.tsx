@@ -1,3 +1,4 @@
+import About from '@/components/About/About';
 import Features from '@/components/Features/Features';
 import Navbar from '@/components/Navbar/Navbar';
 import Overview from '@/components/Overview/Overview';
@@ -8,7 +9,9 @@ export default function Home() {
 			<Navbar />
 			<Overview />
 			<Features />
-			<div className='max-w-5xl mx-auto'></div>
+			<div className='max-w-5xl mx-auto'>
+				<About />
+			</div>
 		</main>
 	);
 }
