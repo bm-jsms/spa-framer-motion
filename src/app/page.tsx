@@ -1,4 +1,5 @@
 import About from '@/components/About/About';
+import Discount from '@/components/Discount/Discount';
 import Features from '@/components/Features/Features';
 import Navbar from '@/components/Navbar/Navbar';
 import Overview from '@/components/Overview/Overview';
@@ -16,6 +17,7 @@ export default function Home() {
 			</div>
 			<Practice />
 			<Plans />
+			<Discount />
 		</main>
 	);
 }
