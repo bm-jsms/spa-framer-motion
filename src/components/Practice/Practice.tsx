@@ -11,7 +11,7 @@ const Practice = () => {
 				<div className='md:pr-20'>
 					<h2 className='mb-10 text-4xl font-bold'>
 						Puedes practicar a<br />
-						cualquier hora
+						cualquier hora <br />
 						<span className='text-pink-400'> que se adpate a ti.</span>
 					</h2>
 					<p className='mb-10 '>
