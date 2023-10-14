@@ -7,7 +7,7 @@ const Overview = () => {
 	return (
 		<div
 			id='overview'
-			className='p-5 mt-3 md:px-24 md:py-52 bg-cover bg-gradient-to-r from-green-800 to-green-900'
+			className='p-5 mt-3 md:px-24 md:py-52 bg-cover bg-gradient-to-r from-purple-900 to-fuchsia-900'
 		>
 			<div className='items-center md:grid md:grid-cols-2'>
 				<div>
@@ -36,7 +36,7 @@ const Overview = () => {
 						))}
 					</div>
 					<div className='flex justify-between'>
-						<button className='px-8 py-3 mr-10 text-white bg-red-700 rounded-2xl hover:scale-105 duration-200'>
+						<button className='px-8 py-3 mr-10 bg-pink-500 rounded-2xl hover:scale-105 duration-200 hover:bg-pink-600'>
 							Empieza ya!
 						</button>
 						<button className='px-8 py-3 mr-10 text-white border-2 rounded-2xl hover:scale-105 duration-200'>
