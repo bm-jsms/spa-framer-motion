@@ -1,9 +1,9 @@
-import Image from 'next/image';
+import Navbar from '@/components/Navbar/Navbar';
 
 export default function Home() {
 	return (
-		<div>
-			<h1>Creando una Spa en Nextjs</h1>
-		</div>
+		<main className='px-3 lg:px-10'>
+			<Navbar />
+		</main>
 	);
 }
