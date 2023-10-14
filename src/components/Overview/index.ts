@@ -1,1 +1,1 @@
-import * from './Overview';
+export * from './Overview';
