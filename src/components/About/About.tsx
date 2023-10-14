@@ -24,7 +24,7 @@ const About = () => {
 					Veritatis aliquam quam ipsa, nulla ratione deleniti aliquid nobis
 					impedit dignissimos.
 				</p>
-				<button className='px-8 py-3 bg-pink-500 rounded-2xl hover:scale-105 duration-200 hover:bg-pink-700'>
+				<button className='px-8 py-3 bg-pink-500 rounded-2 xl hover:scale-105 duration-200 hover:bg-pink-700'>
 					Empieza ya!
 				</button>
 			</div>
