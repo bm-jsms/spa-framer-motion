@@ -9,7 +9,7 @@ export const dataFeatures = [
 		id: 2,
 		image: 'construction',
 		text: 'Trabajando desde mas de 15 años',
-		additionalClass: 'mt-20',
+		additionalClass: 'max-lg:mt-0 mt-20',
 	},
 	{
 		id: 3,

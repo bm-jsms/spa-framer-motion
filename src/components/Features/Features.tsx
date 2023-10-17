@@ -7,7 +7,7 @@ const Features = () => {
 	return (
 		<div
 			id='features'
-			className='grid grid-cols-2 gap-16 my-20 md:grid-cols-4 md:py-56'
+			className='grid grid-cols-1 gap-16 my-20 md:grid-cols-1 md:py-56 lg:grid-cols-4 max-lg:justify-items-center'
 		>
 			<div>
 				<h2 className='mb-4 text-4xl font-bold'>
@@ -16,7 +16,7 @@ const Features = () => {
 					<span className='text-pink-400'> mejores que otros</span>
 				</h2>
 			</div>
-			<div className='flex flex-direction-column gap-10'>
+			<div className='flex flex-col lg:flex-row xl:flex-row gap-10'>
 				{dataFeatures.map(({ id, image, text, additionalClass }) => (
 					<MotionT key={id}>
 						<div key={id}>
